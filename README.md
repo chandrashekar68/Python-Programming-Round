@@ -9,12 +9,14 @@ This is a Flask web application that manages seasonal flavors, ingredient invent
 
 **steps to run the application** : 
 
-   Python should be installed
-   git clone https://github.com/yourusername/your-repo.git
-   install requirements(flask)
-   cd your-repo
-   python app.py
-   access the app using http://127.0.0.1:5000/
+  1) Python should be installed
+   
+  2)  git clone https://github.com/yourusername/your-repo.git
+   
+  3)  install requirements(flask)
+  4)  cd your-repo
+  5)  python app.py
+  6)  access the app using http://127.0.0.1:5000/
 
 
 
