@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Flavor</title>
+</head>
+<body>
+    <h2>Update Flavor</h2>
+    <form method="POST">
+        <label for="flavor">New Flavor Name:</label>
+        <input type="text" name="flavor" value="{{ flavor }}">
+        <button type="submit">Update</button>
+    </form>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    <!-- Link back to flavor list -->
+    <a href="{{ url_for('list_flavors') }}">Back to Flavor List</a>
+</body>
+</html>
